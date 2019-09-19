@@ -1,11 +1,11 @@
 const AppSearchClient = require('@elastic/app-search-node')
 const hostIdentfier = 'host-rm76oz'
-const apiKey = 'private-frkqju3d1x8uxnbciqqry3mu'
+const apiKey = 'search-vw7g7m2ks2gisqce4qr5xb6c'
 
 const client = new AppSearchClient(hostIdentfier, apiKey)
 
 const engineName = 'ewe-search'
-const query = 'specs'
+const query = 'handbags'
 const searchFields = { title: {}, description: {}, category: {}, amount: {}, image: {} }
 const resultFields = { title: { raw: {} }, description: { raw: {} }, category: { raw: {} }, amount: { raw: {} }, }
 const options = { search_fields: searchFields, result_fields: resultFields }
