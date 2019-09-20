@@ -1,10 +1,23 @@
+
+// ------ Setting up Elastic --------
 const AppSearchClient = require('@elastic/app-search-node')
 const hostIdentfier = 'host-rm76oz'
 const apiKey = 'private-frkqju3d1x8uxnbciqqry3mu'
-
 const client = new AppSearchClient(hostIdentfier, apiKey)
-
 const engineName = "ewe-search"
+
+
+// ------ Setting up firebase ------
+const firebaseConfig = {
+    apiKey: "AIzaSyAidtyO1QHi6ALPqXiCnRqp3jpYUAvYvEo",
+    authDomain: "elastic-ewe.firebaseapp.com",
+    databaseURL: "https://elastic-ewe.firebaseio.com",
+    projectId: "elastic-ewe",
+    storageBucket: "elastic-ewe.appspot.com",
+    messagingSenderId: "842121705987",
+    appId: "1:842121705987:web:7da2409c6108e8ac2b2c36"
+  };
+
 
 const documents = [
     {

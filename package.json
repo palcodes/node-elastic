@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@elastic/app-search-node": "^7.3.0"
+    "@elastic/app-search-node": "^7.3.0",
+    "firebase": "^6.6.2"
   }
 }
