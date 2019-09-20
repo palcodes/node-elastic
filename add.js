@@ -6,8 +6,9 @@ const apiKey = 'private-frkqju3d1x8uxnbciqqry3mu'
 const client = new AppSearchClient(hostIdentfier, apiKey)
 const engineName = "ewe-search"
 
-
 // ------ Setting up firebase ------
+import * as admin from 'firebase-admin'
+
 const firebaseConfig = {
     apiKey: "AIzaSyAidtyO1QHi6ALPqXiCnRqp3jpYUAvYvEo",
     authDomain: "elastic-ewe.firebaseapp.com",
