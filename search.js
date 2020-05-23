@@ -14,8 +14,3 @@ client
     .search(engineName, query, options)
     .then(response => console.log(response))
     .catch(error => console.log(error.errorMessages))
-
-// client
-//     .getEngine(engineName)
-//     .then(response => console.log(response))
-//     .catch(error => console.log(error.errorMessages))
