@@ -11,12 +11,3 @@ client
     .getDocuments(engineName, documentIds)
     .then(response => console.log(response))
     .catch(error => console.log(error.errorMessages))
-
-// ----- Get Engine ------ 
-// const engineName = 'ewe-search'
-// client
-//   .getEngine(engineName)
-//   .then(response => console.log(response))
-//   .catch(error => console.log(error.errorMessages))
-
-console.log("Program will wait for requests now.")
